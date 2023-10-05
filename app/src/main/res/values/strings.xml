@@ -1,0 +1,241 @@
+<resources>
+    <string name="app_name">Smart Lecture</string>
+    <string name="navigation_drawer_open">Open Navigation Drawer</string>
+    <string name="navigation_drawer_close">Close Navigation Drawer</string>
+
+    <string name="faq_1">
+        Can we use the same account for more than 1 year? \n
+    </string>
+    <string name="faq_1_ans">
+        No , we are very sorry that you have to create a new account every semester. The app requires this to
+        reduce the size data stored on the cloud storage. We do this because of limited resources and a better
+        and faster data access speed for you.
+    </string>
+    <string name="faq_2">
+        Can we use the same app for a student and teacher?\n
+    </string>
+    <string name="faq_2_ans">
+        Each application can have multiple accounts of multiple types consisting both the Teacher and Student
+        account. The only condition is that you must logout and login every time you want to change the account.
+    </string>
+    <string name="faq_3">
+        What is the benefit of using the Premium version?\n
+    </string>
+    <string name="faq_3_ans">
+        Not much actually. The premium version does not contain advertisements and is more faster than the normal one.
+        Subscribe to the premium account and help us to improve because we need money.
+    </string>
+
+
+    <string name="login">Login</string>
+    <string name="signup">Sign Up</string>
+
+    <string name="home">Home</string>
+    <string name="faq">FAQ</string>
+    <string name="terms">Terms and Conditions</string>
+    <string name="rate_us">Rate Us</string>
+    <string name="policy">Privacy Policy</string>
+    <string name="send">Send</string>
+
+    <string name="about_us">About Us</string>
+    <string name="communicate">Communicate</string>
+    <string name="submit">Submit</string>
+
+    <string name="create_assignment">+ Create Assignment</string>
+    <string name="finish">Finish</string>
+    <string name="create_notes">+ Create Notes</string>
+
+    <string name="username">Username</string>
+    <string name="username_account_type">Username Account Details</string>
+
+    <string name="contentDescAccount">This is the Image of User</string>
+    <string name="button_login">Login</string>
+    <string name="button_signup">Sign Up</string>
+    <string name="button_logout">Log Out</string>
+    <string name="not_user">Not a User?</string>
+    <string name="email_field_login"> Enter Email</string>
+    <string name="enter_password">Enter Password</string>
+    <string name="Enter_ID">Enter Your ID</string>
+    <string name="Enter_Email">Enter Your Email</string>
+    <string name="Teacher_radiobtn">Teacher</string>
+    <string name="Student_radiobtn">Student</string>
+    <string name="con_password">Confirm Password</string>
+    <string name="voicerecord">It is a teacher recording her voice</string>
+    <string name="Enter_Text">Enter Text</string>
+    <string name="Create_PDF">Create PDF</string>
+    <string name="Assignments">Assignments</string>
+    <string name="Notes">Notes"</string>
+    <string name="Featured_Programs">Featured Programs</string>
+    <string name="feedback">Enter the FeedBack</string>
+
+    <string name="About_us_info">
+        Smart Lectures main purpose is to create the appropriate platform for the Students for getting the proper notes and
+        their assignment Questions for their termwork assessments. By Using this app voice notes are available to students. Student can submit their assignment
+        by using this app. Teachers can verify that whether any student has copied the assignment or not.Question bank can be also
+        publish by using this app. Teachers can use this app for combing the multiple notes, editing notes, sharing notes with other
+        teachers. Syllabus is also available for students as well as teachers.Main motive of this app is to let absent student to
+        not to fall back in the studies and be with the class. If the teacher is not able to conduct the lecture due to some reasons then
+        this app provide the way that teacher can submit the notes of previously conducted lectures on particular topic.
+
+    </string>
+    <string name="policy_info">
+        This Privacy Policy elaborates the personal data which is collected by the app In order to access and avail certain features
+        and functions available on the platform and mobile applications, you are required to register and create an account.To create
+        an account you may required information which may unique in form of personal data,provided by you.This Smart Lecture App is
+        committed to ensuring that your privacy is protected. Any information sought by us and provided by you will only be used in
+        accordance with this privacy statement.The Application still has not passed any standardization under the ISO act. WE WILL NEVER SHARE THE DATA WITH ANY THIRD PARTY.
+    </string>
+
+
+    <string name="hello_student">Assignments</string>
+    <string name="help">\?</string>
+    <string name="confirm">Confirm</string>
+    <string name="upload">Upload</string>
+    <string name="selectSubject">Select Subject:</string>
+    <string name="selectDivision">Select Division:</string>
+    <string name="selectAssNo">Select Number:</string>
+    <string name="enterTitle">Enter Assignment Title:</string>
+
+    <string name="hello_student_step1">Hit the Fetch Button to Fetch Assignment Questions</string>
+    <string name="hello_student_step2">Hit the Upload Button to Upload Assignment Answer</string>
+    <string name="hello_student_step0">Select one of the following options. You will be then shown some fields, Fill them up and confirm your selection</string>
+
+    <string name="logout">Log Out</string>
+    <string name="manageAccount">Manage Your Account</string>
+    <string name="fetch">Fetch</string>
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="create_pdf">Create PDF</string>
+    <string name="share">Share</string>
+    <string name="enter_text">Enter Text</string>
+    <string name="edit_notes_here">Edit Notes Here:</string>
+    <string name="proceed_to_upload">Proceed To Upload</string>
+    <string name="shared_notes">Shared Notes</string>
+    <string name="upload_notes">Upload Notes</string>
+    <string name="share_notes_on_a_go">Share Notes on a go..</string>
+    <string name="name_not_here">Name not Available to upload Notes?</string>
+    <string name="student_trying_to_take_notes">Student Trying to take Notes</string>
+    <string name="notes_instruction1">You can access all the notes that have been uploaded by your teachers.</string>
+    <string name="notes_instruction2"> Click the fetch button, then Select your division and Select your Teacher. </string>
+    <string name="notes_instruction3">If Your Teacher is not on the list then click the Link below and Enter the name of your teacher.</string>
+    <string name="do_not_show_this_tutorial_page_again">Do not show this tutorial page again.</string>
+    <string-array name="division">
+        <item>G1</item>
+        <item>H1</item>
+        <item>N1</item>
+        <item>G2</item>
+        <item>H2</item>
+        <item>N2</item>
+        <item>G3</item>
+        <item>H3</item>
+        <item>N3</item>
+    </string-array>
+
+    <string-array name="G3">
+        <item>Android</item>
+        <item>Java II</item>
+        <item>JSP</item>
+        <item>ST</item>
+        <item>CS</item>
+    </string-array>
+
+    <string-array name="G2">
+        <item>C++</item>
+        <item>RDBMS</item>
+        <item>DS</item>
+        <item>MP</item>
+        <item>OS</item>
+        <item>SE</item>
+    </string-array>
+
+    <string-array name="G1">
+        <item>C</item>
+        <item>English</item>
+        <item>CMS</item>
+        <item>M1</item>
+        <item>M2</item>
+        <item>Physics</item>
+    </string-array>
+
+    <string-array name="Numbers">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+    </string-array>
+    <string name="Ser_heading">Who May Use the Services?</string>
+    <string name="step1">
+        Contact Administrator</string>
+    <string name="step2">
+        Administrator will create new Ids for teacher and student and will also distribute them
+    </string>
+    <string name="step3">
+        Signup and start using our application!
+    </string>
+    <string name="basic"> Only the university or college student and techers can used this App.They can access this app only after Registering to ths app with their Ids</string>
+    <string name="log_out">Log Out</string>
+    <string name="change_email">Change Email</string>
+    <string name="change_password">Change Password</string>
+    <string name="delete_account">Delete Account</string>
+    <string name="settings">Settings</string>
+    <string name="change">Change</string>
+    <string name="enter_your_id">Enter Your ID</string>
+    <string name="teacher">Teacher</string>
+    <string name="student">Student</string>
+    <string name="not_a_user">Not a User?</string>
+    <string name="forgot_password">Forgot Password?</string>
+    <string name="create_note_help">To Record a Point or Sentence click the Create Note button.\nTo record another sentence click the button again and record. When all the points are over, Click the Finish button</string>
+    <string name="proceed">Proceed</string>
+    <string name="here_you_can_fetch_the_answers_of_assignments_your_students_have_uploaded">Here you can fetch the Answers of Assignments your students have uploaded</string>
+    <string name="get_questions">Get questions</string>
+    <string name="share_assignments_on_a_go">Share Assignments on a go..</string>
+    <string name="name_not_available_to_get_questions">Name not Available to get Questions?</string>
+    <string name="new_teacher_name">New Teacher name</string>
+    <string name="welcome_admin">Welcome Admin</string>
+    <string name="this_is_your_admin_app_dashboard">This is your admin Dashboard</string>
+    <string name="add_user">Add User</string>
+    <string name="delete_database">Wipe Database</string>
+    <string name="confirmation_required">Confirmation Required</string>
+    <string name="create_id">Create ID</string>
+    <string name="enter_new_id">Enter New ID</string>
+    <string name="admin">Admin</string>
+    <string name="get_grades">get Grades</string>
+    <string name="xyz_abc">Xyz abc...</string>
+    <string name="_0_0">0.0</string>
+    <string name="marks">Marks :</string>
+    <string name="comments">Comments:</string>
+    <string name="plus">Plus</string>
+    <string name="your_precious_comments">Your Precious Comments!</string>
+    <string name="java">java</string>
+    <string name="c">c</string>
+    <string name="cpp">cpp</string>
+    <string name="js">js</string>
+    <string name="plussign">+</string>
+    <string name="empty">empty</string>
+    <string name="teacher_name">Teacher Name</string>
+    <string name="update">Update</string>
+    <string name="view_assignment">View Assignment</string>
+    <string name="grade_assignment">Grade Assignment</string>
+    <string name="upload_assignments">Upload Assignments</string>
+    <string name="shared_assignments">Shared Assignments</string>
+    <string name="faq_s">FAQ\'s</string>
+    <string name="syllabus">syllabus</string>
+    <string name="featured_programs">Featured Programs</string>
+    <string name="syllabus2">Syllabus</string>
+
+
+</resources>

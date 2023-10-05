@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".MainActivity">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/help_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="visible">
+
+        <ImageView
+            android:id="@+id/imageOfAssignment"
+            android:layout_width="223dp"
+            android:layout_height="160dp"
+            android:layout_marginTop="72dp"
+            android:contentDescription="@string/student_trying_to_take_notes"
+            android:elevation="5dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/studentnotes" />
+
+        <TextView
+            android:id="@+id/help1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:layout_marginStart="30dp"
+            android:layout_marginEnd="30dp"
+            android:fontFamily="sans-serif"
+            android:padding="5dp"
+            android:text="@string/hello_student_step1"
+            android:textSize="16sp"
+            android:textAlignment="center"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.497"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageOfAssignment" />
+
+        <Button
+            android:id="@+id/fetch_assignment_student_button"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_width="250dp"
+            android:layout_height="45dp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/rounded_account_buttons"
+            android:shadowColor="#ffffff"
+            android:shadowDx="1"
+            android:shadowDy="1"
+            android:text="@string/fetch"
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.496"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/help2" />
+
+        <TextView
+            android:id="@+id/help2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:fontFamily="sans-serif"
+            android:padding="5dp"
+            android:layout_marginStart="30dp"
+            android:layout_marginEnd="30dp"
+            android:text="@string/hello_student_step2"
+            android:textSize="16sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/help1" />
+
+        <Button
+            android:id="@+id/upload_assignment_student"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_width="250dp"
+            android:layout_height="45dp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/rounded_account_buttons"
+            android:shadowColor="#ffffff"
+            android:shadowDx="1"
+            android:shadowDy="1"
+            android:text="@string/upload"
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.496"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/fetch_assignment_student_button" />
+
+        <Button
+            android:id="@+id/getGrades"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_width="250dp"
+            android:layout_height="45dp"
+            android:layout_marginTop="76dp"
+            android:background="@drawable/rounded_account_buttons"
+            android:shadowColor="#ffffff"
+            android:shadowDx="1"
+            android:shadowDy="1"
+            android:text="@string/get_grades"
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.496"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/fetch_assignment_student_button"
+            app:layout_constraintVertical_bias="0.0" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <RelativeLayout
+        android:id="@+id/constraint_layout_fas"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@mipmap/listbg"
+        android:visibility="gone">
+
+        <TextView
+            android:id="@+id/select_div_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="45dp"
+            android:layout_marginTop="136dp"
+            android:text="@string/selectDivision"
+            android:textSize="18sp" />
+
+        <Spinner
+            android:id="@+id/div"
+            android:layout_width="140dp"
+            android:layout_height="35dp"
+            android:layout_alignStart="@id/select_div_tv"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="173dp"
+            android:layout_marginTop="132dp"
+            android:background="@drawable/textfield" />
+
+        <TextView
+            android:id="@+id/select_sub_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/selectSubject"
+            android:textSize="18sp"
+            android:layout_alignTop="@id/select_div_tv"
+            android:layout_marginTop="50dp"
+            android:layout_alignStart="@id/select_div_tv"
+            />
+
+        <Spinner
+            android:id="@+id/selsub"
+            android:layout_width="140dp"
+            android:layout_height="35dp"
+            android:background="@drawable/textfield"
+            android:layout_alignStart="@id/div"
+            android:layout_alignTop="@id/select_div_tv"
+            android:layout_marginTop="50dp"
+            />
+
+
+        <TextView
+            android:id="@+id/select_assNo_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/selectAssNo"
+            android:textSize="18sp"
+            android:layout_alignTop="@id/select_sub_tv"
+            android:layout_marginTop="50dp"
+            android:layout_alignStart="@id/select_sub_tv"
+             />
+
+        <Spinner
+            android:id="@+id/Assnum"
+            android:layout_width="140dp"
+            android:layout_height="35dp"
+            android:background="@drawable/textfield"
+            android:layout_alignTop="@id/select_sub_tv"
+            android:layout_marginTop="50dp"
+            android:layout_alignStart="@id/selsub"
+            />
+
+        <EditText
+            android:id="@+id/titleOfAss"
+            android:layout_width="290dp"
+            android:layout_height="35dp"
+            android:autofillHints="@string/enterTitle"
+            android:background="@drawable/textfield"
+            android:ems="10"
+            android:paddingStart="20dp"
+            android:paddingTop="2dp"
+            android:paddingBottom="2dp"
+            android:paddingEnd="2dp"
+            android:hint="@string/enterTitle"
+            android:inputType="textPersonName"
+            android:textAlignment="viewStart"
+            android:layout_alignTop="@id/select_assNo_tv"
+            android:layout_marginTop="60dp"
+            android:layout_alignStart="@id/select_assNo_tv"
+            android:layout_alignEnd="@id/Assnum"
+             />
+
+
+        <Button
+            android:id="@+id/confirm_button_student"
+            android:layout_width="130dp"
+            android:layout_height="45dp"
+            android:background="@drawable/rounded_red_buttons"
+            android:text="@string/confirm"
+            android:textColor="#fff"
+            android:layout_alignTop="@id/select_assNo_tv"
+            android:layout_marginTop="150dp"
+            android:layout_alignStart="@id/select_assNo_tv"
+            />
+
+        <Button
+            android:id="@+id/upload_button_asf"
+            android:layout_width="130dp"
+            android:layout_height="45dp"
+            android:background="@drawable/rounded_disabled_grey_button"
+            android:text="@string/upload"
+            android:textColor="@color/buttonRed"
+            android:layout_alignTop="@id/select_assNo_tv"
+            android:layout_marginTop="150dp"
+            android:layout_alignStart="@id/Assnum"
+            />
+
+
+    </RelativeLayout>
+
+</FrameLayout>

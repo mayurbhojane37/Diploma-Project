@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/seeAss"
+        android:layout_width="305dp"
+        android:layout_height="225dp"
+        android:layout_marginTop="52dp"
+        android:background="@drawable/backframe"
+        android:onClick="viewAss"
+        android:paddingTop="20dp"
+        android:paddingBottom="40dp"
+        android:src="@drawable/viewass"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:contentDescription="@string/view_assignment" />
+
+
+    <TextView
+        android:layout_width="320dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="160dp"
+        android:paddingTop="15dp"
+        android:text="@string/view_assignment"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="@+id/seeAss"
+        app:layout_constraintHorizontal_bias="0.466"
+        app:layout_constraintStart_toStartOf="@+id/seeAss"
+        app:layout_constraintTop_toTopOf="@+id/seeAss" />
+
+    <ImageView
+        android:id="@+id/rateView"
+        android:layout_width="305dp"
+        android:layout_height="225dp"
+        android:layout_marginTop="332dp"
+        android:background="@drawable/backframe"
+
+        android:onClick="rateAss"
+        android:paddingTop="20dp"
+        android:paddingBottom="30dp"
+        android:src="@drawable/rateass"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.49"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:contentDescription="@string/grade_assignment" />
+
+    <TextView
+        android:layout_width="320dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="160dp"
+        android:paddingTop="15dp"
+        android:text="@string/grade_assignment"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="@+id/rateView"
+        app:layout_constraintHorizontal_bias="0.466"
+        app:layout_constraintStart_toStartOf="@+id/rateView"
+        app:layout_constraintTop_toTopOf="@+id/rateView" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

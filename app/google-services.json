@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1068927533323",
+    "firebase_url": "https://slapp-fc8b7.firebaseio.com",
+    "project_id": "slapp-fc8b7",
+    "storage_bucket": "slapp-fc8b7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1068927533323:android:9e5d771c2688c473c2e20e",
+        "android_client_info": {
+          "package_name": "com.hfad.myapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1068927533323-38hreetb4fh7b2flq11s2l0loihjfm76.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.hfad.myapplication",
+            "certificate_hash": "1aade61e5e04411badfb3a444ba9674bfde2b01b"
+          }
+        },
+        {
+          "client_id": "1068927533323-p0iagni7kuvhoc35klihh95a5ub47jsp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyABW_Qoh9ovHEi8FDCtFyuu08kA6Ulf36c"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1068927533323-p0iagni7kuvhoc35klihh95a5ub47jsp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

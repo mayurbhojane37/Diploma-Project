@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#835ecc</color>
+    <color name="colorPrimaryDark">#482D4A</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="colorAccent2">#E5DDC8</color>
+    <color name="buttonRed">#C9D81B60</color>
+    <color name="colorLightPurple">#F7E8F0</color>
+    <color name="colorNotWhite">#eeeeec</color>
+    <color name="transparentWhite">#4DE4DDDD</color>
+    
+    <color name="coral">#ff5765</color>
+    <color name="strongRed">#D50416</color>
+    <color name="greyYellow">#EFE3D2</color>
+    <color name="greyBlue">#9AC0B5</color>
+    <color name="greyGreen">#B2C899</color>
+    <color name="kelly_green">#99CD08</color>
+    <color name="fullWhite">#ffffff</color>
+    <color name="mediumRed">#DE605A</color>
+    <color name="peach">#fbcaa7</color>
+    <color name="simplePink">#ffd8f1</color>
+    <color name="royalBlue">#2d40e5</color>
+    <color name="vegas_gold">#ffd700</color>
+    <color name="analogous1">#ca5eec</color>
+    <color name="ana_blue">#5e80ec</color>
+</resources>

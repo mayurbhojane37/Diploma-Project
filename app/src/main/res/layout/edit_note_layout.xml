@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".EditNoteActivity">
+
+    <TextView
+        android:id="@+id/header_de_edit_note"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/edit_notes_here"
+        android:textColor="@color/mediumRed"
+        android:textAllCaps="true"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:textAlignment="viewStart"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="45dp"
+        android:paddingStart="20dp"
+        tools:ignore="RtlSymmetry" />
+
+    <EditText
+        android:id="@+id/editableNotesView"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginEnd="20dp"
+        android:layout_marginStart="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="262dp"
+        android:layout_alignTop="@id/header_de_edit_note"
+        android:layout_marginTop="30dp"
+        android:autofillHints="@string/Notes"
+        android:background="@mipmap/lists"
+        android:hint="@string/Notes"
+        android:inputType="textMultiLine"
+        android:maxLines="10"
+        android:scrollbarThumbVertical="@color/colorPrimary" />
+
+    <Button
+        android:id="@+id/button"
+        style="?android:attr/borderlessButtonStyle"
+        android:layout_width="250dp"
+        android:layout_height="45dp"
+        android:layout_below="@+id/editableNotesView"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="78dp"
+        android:layout_marginTop="49dp"
+        android:layout_marginEnd="83dp"
+        android:background="@drawable/rounded_account_buttons"
+        android:shadowColor="#ffffff"
+        android:shadowDx="1"
+        android:shadowDy="1"
+        android:text="@string/create_pdf"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/button2"
+        style="?android:attr/borderlessButtonStyle"
+        android:layout_width="250dp"
+        android:layout_height="45dp"
+        android:layout_alignStart="@+id/button"
+        android:layout_alignTop="@id/button"
+        android:layout_alignEnd="@+id/button"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="55dp"
+        android:layout_marginEnd="-1dp"
+        android:background="@drawable/profile_settings_button_border"
+        android:shadowColor="#ffffff"
+        android:shadowDx="1"
+        android:shadowDy="1"
+        android:text="@string/share"
+        android:textAlignment="center"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/upload_note_button_teacher"
+        style="?android:attr/borderlessButtonStyle"
+        android:layout_width="250dp"
+        android:layout_height="45dp"
+        android:layout_alignStart="@+id/button2"
+        android:layout_alignTop="@id/button2"
+        android:layout_alignEnd="@+id/button2"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="55dp"
+        android:layout_marginEnd="0dp"
+        android:background="@drawable/rounded_account_buttons"
+        android:shadowColor="#ffffff"
+        android:shadowDx="1"
+        android:shadowDy="1"
+        android:text="@string/proceed_to_upload"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+
+</RelativeLayout>
