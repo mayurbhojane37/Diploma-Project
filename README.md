@@ -1,0 +1,6 @@
+# Diploma-Project
+# Smart Lecture App
+So in this Project we are going to develop an App which is Smart Lecture App. What is main motive of this app development?
+By Using this app students can get their proper notes and can submit their assignment. Here the
+voice notes are converted into text format and it is available to students. One keyword is used to record the voice and then it is converted into text. Student can submit their assignment by using this app. Teachers can check it and verify that whether any student has copied the assignment or not. Question bank can be also publish by using this app. Teachers can use this app for image doodling, combing the multiple notes, editing notes, sharing notes with other teachers. Syllabus mapping can be also done by students as well as teachers.
+Main motive of this app is if the student is not present for the lecture due to some reasons it will be able to provide the notes of particular lecture to all the students in document format.so the student can easily retrieve the notes. If the teacher is not able to conduct the lecture due to some reasons then this app provide the way that teacher can submit the notes of previously conducted lectures on particular topic. Teachers can also upload the previous year question papers and model answer sheet for student practices. So this app is known as Smart Lecture App.
